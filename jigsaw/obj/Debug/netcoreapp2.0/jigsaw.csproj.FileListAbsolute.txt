@@ -1,0 +1,11 @@
+C:\projects.net\jigsaw\jigsaw\bin\Debug\netcoreapp2.0\jigsaw.deps.json
+C:\projects.net\jigsaw\jigsaw\bin\Debug\netcoreapp2.0\jigsaw.runtimeconfig.json
+C:\projects.net\jigsaw\jigsaw\bin\Debug\netcoreapp2.0\jigsaw.runtimeconfig.dev.json
+C:\projects.net\jigsaw\jigsaw\bin\Debug\netcoreapp2.0\jigsaw.dll
+C:\projects.net\jigsaw\jigsaw\bin\Debug\netcoreapp2.0\jigsaw.pdb
+C:\projects.net\jigsaw\jigsaw\obj\Debug\netcoreapp2.0\jigsaw.csprojResolveAssemblyReference.cache
+C:\projects.net\jigsaw\jigsaw\obj\Debug\netcoreapp2.0\jigsaw.csproj.CoreCompileInputs.cache
+C:\projects.net\jigsaw\jigsaw\obj\Debug\netcoreapp2.0\jigsaw.AssemblyInfoInputs.cache
+C:\projects.net\jigsaw\jigsaw\obj\Debug\netcoreapp2.0\jigsaw.AssemblyInfo.cs
+C:\projects.net\jigsaw\jigsaw\obj\Debug\netcoreapp2.0\jigsaw.dll
+C:\projects.net\jigsaw\jigsaw\obj\Debug\netcoreapp2.0\jigsaw.pdb

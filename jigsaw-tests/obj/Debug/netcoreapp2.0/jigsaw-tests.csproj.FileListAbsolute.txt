@@ -1,0 +1,11 @@
+C:\projects.net\jigsaw\jigsaw-tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\projects.net\jigsaw\jigsaw-tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\projects.net\jigsaw\jigsaw-tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\projects.net\jigsaw\jigsaw-tests\bin\Debug\netcoreapp2.0\jigsaw-tests.deps.json
+C:\projects.net\jigsaw\jigsaw-tests\bin\Debug\netcoreapp2.0\jigsaw-tests.runtimeconfig.json
+C:\projects.net\jigsaw\jigsaw-tests\bin\Debug\netcoreapp2.0\jigsaw-tests.runtimeconfig.dev.json
+C:\projects.net\jigsaw\jigsaw-tests\bin\Debug\netcoreapp2.0\jigsaw-tests.dll
+C:\projects.net\jigsaw\jigsaw-tests\obj\Debug\netcoreapp2.0\jigsaw-tests.csprojResolveAssemblyReference.cache
+C:\projects.net\jigsaw\jigsaw-tests\obj\Debug\netcoreapp2.0\jigsaw-tests.csproj.CoreCompileInputs.cache
+C:\projects.net\jigsaw\jigsaw-tests\obj\Debug\netcoreapp2.0\jigsaw-tests.AssemblyInfoInputs.cache
+C:\projects.net\jigsaw\jigsaw-tests\obj\Debug\netcoreapp2.0\jigsaw-tests.AssemblyInfo.cs

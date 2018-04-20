@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jigsaw", "jigsaw\jigsaw.csproj", "{CB9E8F34-2336-4EBE-AB6E-65B832BD0C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JigsawTests", "jigsaw-tests\JigsawTests.csproj", "{4D706000-F04E-48B4-84DE-8806C51EEF10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB9E8F34-2336-4EBE-AB6E-65B832BD0C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB9E8F34-2336-4EBE-AB6E-65B832BD0C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB9E8F34-2336-4EBE-AB6E-65B832BD0C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB9E8F34-2336-4EBE-AB6E-65B832BD0C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D706000-F04E-48B4-84DE-8806C51EEF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D706000-F04E-48B4-84DE-8806C51EEF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D706000-F04E-48B4-84DE-8806C51EEF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D706000-F04E-48B4-84DE-8806C51EEF10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {931A2F1D-229A-49FA-9E4D-2BB1815AA6B6}
+	EndGlobalSection
+EndGlobal
