@@ -1,0 +1,16 @@
+﻿{
+	
+	"bundles": [
+		{
+			"webpack": true,
+			"name": "tutorial",
+			"path": "js/tutorial.jsx",
+			"files": [
+				"jsx/tutorial.js"
+			],
+			"dependencies": [
+				
+			]
+		}
+	]
+}

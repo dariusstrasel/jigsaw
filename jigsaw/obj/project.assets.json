@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "Chutzpah/4.3.6": {
+        "type": "package"
+      },
       "JavaScriptEngineSwitcher.ChakraCore/2.4.8": {
         "type": "package",
         "dependencies": {
@@ -3020,6 +3023,9 @@
           "lib/netstandard1.6/React.Core.dll": {}
         }
       },
+      "react.js/0.14.7": {
+        "type": "package"
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -3755,6 +3761,49 @@
             "rid": "unix"
           },
           "runtimes/win/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Diagnostics.Process/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.Win32.Primitives": "4.3.0",
+          "Microsoft.Win32.Registry": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Threading.Thread": "4.3.0",
+          "System.Threading.ThreadPool": "4.3.0",
+          "runtime.native.System": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.4/System.Diagnostics.Process.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -5253,6 +5302,21 @@
           "lib/netstandard1.6/VroomJs.dll": {}
         }
       },
+      "Webpack/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.1.1",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Diagnostics.Process": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Webpack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Webpack.dll": {}
+        }
+      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -5271,6 +5335,104 @@
     }
   },
   "libraries": {
+    "Chutzpah/4.3.6": {
+      "sha512": "Z/3cuDTG3wTfLQxEHlNBMHXQKWFHGl6hMyl8KMlqLbfTZPbbsu/AO5g2Dv8rihEjiHn8fUr0RLX9a5M5MGQvRA==",
+      "type": "package",
+      "path": "chutzpah/4.3.6",
+      "files": [
+        "License.txt",
+        "chutzpah.4.3.6.nupkg.sha512",
+        "chutzpah.nuspec",
+        "tools/AntiXssLibrary.dll",
+        "tools/Chutzpah.VS.Common.dll",
+        "tools/Chutzpah.VS.Common.dll.config",
+        "tools/Chutzpah.VS.Common.pdb",
+        "tools/Chutzpah.VS2012.TestAdapter.dll",
+        "tools/Chutzpah.VS2012.TestAdapter.dll.config",
+        "tools/Chutzpah.VS2012.TestAdapter.pdb",
+        "tools/ChutzpahJSRunners/chutzpahRunner.js",
+        "tools/ChutzpahJSRunners/jasmineRunnerV1.js",
+        "tools/ChutzpahJSRunners/jasmineRunnerV2.js",
+        "tools/ChutzpahJSRunners/mochaRunner.js",
+        "tools/ChutzpahJSRunners/qunitRunner.js",
+        "tools/ChutzpahTestHarnessFiles/Coverage/blanket_jasmine_v1.js",
+        "tools/ChutzpahTestHarnessFiles/Coverage/blanket_jasmine_v2.js",
+        "tools/ChutzpahTestHarnessFiles/Coverage/blanket_mocha.js",
+        "tools/ChutzpahTestHarnessFiles/Coverage/blanket_qunit.js",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v1/jasmine-ddescribe-iit.js",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v1/jasmine-html.js",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v1/jasmine.css",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v1/jasmine.html",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v1/jasmine.js",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v1/jasmine_favicon.png",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v2/boot.js",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v2/jasmine-html.js",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v2/jasmine.css",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v2/jasmine.html",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v2/jasmine.js",
+        "tools/ChutzpahTestHarnessFiles/Jasmine/v2/jasmine_favicon.png",
+        "tools/ChutzpahTestHarnessFiles/Mocha/mocha.css",
+        "tools/ChutzpahTestHarnessFiles/Mocha/mocha.html",
+        "tools/ChutzpahTestHarnessFiles/Mocha/mocha.js",
+        "tools/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css",
+        "tools/ChutzpahTestHarnessFiles/QUnit/v1/qunit.html",
+        "tools/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js",
+        "tools/ChutzpahTestHarnessFiles/QUnit/v2/qunit.css",
+        "tools/ChutzpahTestHarnessFiles/QUnit/v2/qunit.html",
+        "tools/ChutzpahTestHarnessFiles/QUnit/v2/qunit.js",
+        "tools/ChutzpahTestHarnessFiles/chutzpah_boot.js",
+        "tools/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "tools/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+        "tools/Microsoft.AspNetCore.Hosting.dll",
+        "tools/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "tools/Microsoft.AspNetCore.Http.Extensions.dll",
+        "tools/Microsoft.AspNetCore.Http.Features.dll",
+        "tools/Microsoft.AspNetCore.Http.dll",
+        "tools/Microsoft.AspNetCore.Server.Kestrel.dll",
+        "tools/Microsoft.AspNetCore.StaticFiles.dll",
+        "tools/Microsoft.AspNetCore.WebUtilities.dll",
+        "tools/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "tools/Microsoft.Extensions.Configuration.dll",
+        "tools/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/Microsoft.Extensions.Logging.dll",
+        "tools/Microsoft.Extensions.ObjectPool.dll",
+        "tools/Microsoft.Extensions.Options.dll",
+        "tools/Microsoft.Extensions.PlatformAbstractions.dll",
+        "tools/Microsoft.Extensions.Primitives.dll",
+        "tools/Microsoft.Extensions.WebEncoders.dll",
+        "tools/Microsoft.Net.Http.Headers.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/ServiceStack.Text.dll",
+        "tools/SourceMapDotNet.dll",
+        "tools/StructureMap.dll",
+        "tools/StructureMap.pdb",
+        "tools/System.Buffers.dll",
+        "tools/System.Collections.Immutable.dll",
+        "tools/System.Diagnostics.DiagnosticSource.dll",
+        "tools/System.Numerics.Vectors.dll",
+        "tools/System.Reflection.Metadata.dll",
+        "tools/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/System.Text.Encodings.Web.dll",
+        "tools/System.Threading.Tasks.Extensions.dll",
+        "tools/chutzpah.console.exe",
+        "tools/chutzpah.console.exe.config",
+        "tools/chutzpah.console.pdb",
+        "tools/chutzpah.dll",
+        "tools/chutzpah.dll.config",
+        "tools/chutzpah.pdb",
+        "tools/ctz.bat",
+        "tools/phantomjs.exe",
+        "tools/x64/libuv.dll",
+        "tools/x86/libuv.dll"
+      ]
+    },
     "JavaScriptEngineSwitcher.ChakraCore/2.4.8": {
       "sha512": "HoRqyAehgK51i4/qABBPByOFDNxVva0K9OI8gBY6y9hcsZyvck6bYlTwcpCaYEa4gQPW/WRuG341mpkIbayxAA==",
       "type": "package",
@@ -8384,6 +8546,23 @@
         "react.core.nuspec"
       ]
     },
+    "react.js/0.14.7": {
+      "sha512": "vz/ldkXR45hqxm0nspBc0VCyk2ay4TTn+69C0HYAFmiYiHdq1trtmM6408FF3ZEG7OPFwOKVrsVyuGCDC/wyXw==",
+      "type": "package",
+      "path": "react.js/0.14.7",
+      "files": [
+        "Content/Scripts/react/react-dom-server.js",
+        "Content/Scripts/react/react-dom-server.min.js",
+        "Content/Scripts/react/react-dom.js",
+        "Content/Scripts/react/react-dom.min.js",
+        "Content/Scripts/react/react-with-addons.js",
+        "Content/Scripts/react/react-with-addons.min.js",
+        "Content/Scripts/react/react.js",
+        "Content/Scripts/react/react.min.js",
+        "react.js.0.14.7.nupkg.sha512",
+        "react.js.nuspec"
+      ]
+    },
     "Remotion.Linq/2.1.1": {
       "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "type": "package",
@@ -9698,6 +9877,61 @@
         "runtimes/win/lib/netstandard1.3/System.Diagnostics.FileVersionInfo.dll",
         "system.diagnostics.fileversioninfo.4.3.0.nupkg.sha512",
         "system.diagnostics.fileversioninfo.nuspec"
+      ]
+    },
+    "System.Diagnostics.Process/4.3.0": {
+      "sha512": "J0wOX07+QASQblsfxmIMFc9Iq7KTXYL3zs2G/Xc704Ylv3NpuVdo6gij6V3PGiptTxqsK0K7CdXenRvKUnkA2g==",
+      "type": "package",
+      "path": "system.diagnostics.process/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Diagnostics.Process.dll",
+        "lib/net461/System.Diagnostics.Process.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Diagnostics.Process.dll",
+        "ref/net461/System.Diagnostics.Process.dll",
+        "ref/netstandard1.3/System.Diagnostics.Process.dll",
+        "ref/netstandard1.3/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/de/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/es/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/fr/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/it/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/ja/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/ko/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/ru/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/zh-hans/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/zh-hant/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/System.Diagnostics.Process.dll",
+        "ref/netstandard1.4/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/de/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/es/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/fr/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/it/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/ja/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/ko/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/ru/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/zh-hans/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/zh-hant/System.Diagnostics.Process.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "runtimes/win/lib/net46/System.Diagnostics.Process.dll",
+        "runtimes/win/lib/net461/System.Diagnostics.Process.dll",
+        "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "runtimes/win7/lib/netcore50/_._",
+        "system.diagnostics.process.4.3.0.nupkg.sha512",
+        "system.diagnostics.process.nuspec"
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
@@ -13582,6 +13816,16 @@
         "vroomjs.nuspec"
       ]
     },
+    "Webpack/4.0.0": {
+      "sha512": "HPvYUK4I7WZEfIL18oSnFNJkTfpOTFwD6hVrBFgxVqYr/ZczSiU+TuqvkmgTR/J/2emcD/u15oKAsRD9ohGtdA==",
+      "type": "package",
+      "path": "webpack/4.0.0",
+      "files": [
+        "lib/netstandard1.3/Webpack.dll",
+        "webpack.4.0.0.nupkg.sha512",
+        "webpack.nuspec"
+      ]
+    },
     "WindowsAzure.Storage/8.1.4": {
       "sha512": "W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "type": "package",
@@ -13607,10 +13851,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Chutzpah >= 4.3.6",
       "Microsoft.AspNetCore.All >= 2.0.7",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3",
-      "React.AspNet >= 3.3.0"
+      "React.AspNet >= 3.3.0",
+      "Webpack >= 4.0.0",
+      "react.js >= 0.14.7"
     ]
   },
   "packageFolders": {
@@ -13658,6 +13905,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Chutzpah": {
+            "target": "Package",
+            "version": "[4.3.6, )"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.7, )"
@@ -13674,6 +13925,14 @@
           "React.AspNet": {
             "target": "Package",
             "version": "[3.3.0, )"
+          },
+          "Webpack": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "react.js": {
+            "target": "Package",
+            "version": "[0.14.7, )"
           }
         },
         "imports": [

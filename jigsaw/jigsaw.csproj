@@ -5,9 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="jsx\tutorial.jsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chutzpah" Version="4.3.6" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.7" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
     <PackageReference Include="React.AspNet" Version="3.3.0" />
+    <PackageReference Include="react.js" Version="0.14.7" />
+    <PackageReference Include="Webpack" Version="4.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,7 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="jsx\testjs\" />
+    <Folder Include="jsx\testjsx\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
 </Project>

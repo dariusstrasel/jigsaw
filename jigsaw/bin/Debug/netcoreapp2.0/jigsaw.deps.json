@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "f55b1ff645210db0ef87d3176ccf7cfcb2fbd57b"
+    "signature": "a85ae51c840b99436070a7a5e36ac9e49ffb551a"
   },
   "compilationOptions": {
     "defines": [
@@ -23,10 +23,13 @@
     ".NETCoreApp,Version=v2.0": {
       "jigsaw/1.0.0": {
         "dependencies": {
+          "Chutzpah": "4.3.6",
           "Microsoft.AspNetCore.All": "2.0.7",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
-          "React.AspNet": "3.3.0"
+          "React.AspNet": "3.3.0",
+          "Webpack": "4.0.0",
+          "react.js": "0.14.7"
         },
         "runtime": {
           "jigsaw.dll": {}
@@ -35,6 +38,7 @@
           "jigsaw.dll": {}
         }
       },
+      "Chutzpah/4.3.6": {},
       "JavaScriptEngineSwitcher.ChakraCore/2.4.8": {
         "dependencies": {
           "JavaScriptEngineSwitcher.Core": "2.4.9",
@@ -2633,6 +2637,7 @@
           "lib/netstandard1.6/React.Core.dll": {}
         }
       },
+      "react.js/0.14.7": {},
       "Remotion.Linq/2.1.1": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -3171,6 +3176,45 @@
         "runtimeTargets": {
           "runtime/unix/lib/_._": {
             "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Diagnostics.Process/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.Win32.Primitives": "4.3.0",
+          "Microsoft.Win32.Registry": "4.4.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Threading.Thread": "4.3.0",
+          "System.Threading.ThreadPool": "4.3.0",
+          "runtime.native.System": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtime/linux/lib/_._": {
+            "rid": "linux",
+            "assetType": "runtime"
+          },
+          "runtime/osx/lib/_._": {
+            "rid": "osx",
             "assetType": "runtime"
           },
           "runtime/win/lib/_._": {
@@ -4258,6 +4302,20 @@
           "lib/netstandard1.6/VroomJs.dll": {}
         }
       },
+      "Webpack/4.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.2",
+          "NETStandard.Library": "2.0.0",
+          "Newtonsoft.Json": "10.0.1",
+          "System.Diagnostics.Process": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Webpack.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Webpack.dll": {}
+        }
+      },
       "WindowsAzure.Storage/8.1.4": {
         "dependencies": {
           "Microsoft.Data.OData": "5.8.2",
@@ -4455,6 +4513,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Chutzpah/4.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z/3cuDTG3wTfLQxEHlNBMHXQKWFHGl6hMyl8KMlqLbfTZPbbsu/AO5g2Dv8rihEjiHn8fUr0RLX9a5M5MGQvRA==",
+      "path": "chutzpah/4.3.6",
+      "hashPath": "chutzpah.4.3.6.nupkg.sha512"
     },
     "JavaScriptEngineSwitcher.ChakraCore/2.4.8": {
       "type": "package",
@@ -5737,6 +5802,13 @@
       "path": "react.core/3.3.0",
       "hashPath": "react.core.3.3.0.nupkg.sha512"
     },
+    "react.js/0.14.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vz/ldkXR45hqxm0nspBc0VCyk2ay4TTn+69C0HYAFmiYiHdq1trtmM6408FF3ZEG7OPFwOKVrsVyuGCDC/wyXw==",
+      "path": "react.js/0.14.7",
+      "hashPath": "react.js.0.14.7.nupkg.sha512"
+    },
     "Remotion.Linq/2.1.1": {
       "type": "package",
       "serviceable": true,
@@ -6100,6 +6172,13 @@
       "sha512": "sha512-omCF64wzQ3Q2CeIqkD6lmmxeMZtGHUmzgFMPjfVaOsyqpR66p/JaZzManMw1s33osoAb5gqpncsjie67+yUPHQ==",
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "hashPath": "system.diagnostics.fileversioninfo.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Process/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J0wOX07+QASQblsfxmIMFc9Iq7KTXYL3zs2G/Xc704Ylv3NpuVdo6gij6V3PGiptTxqsK0K7CdXenRvKUnkA2g==",
+      "path": "system.diagnostics.process/4.3.0",
+      "hashPath": "system.diagnostics.process.4.3.0.nupkg.sha512"
     },
     "System.Diagnostics.StackTrace/4.3.0": {
       "type": "package",
@@ -6660,6 +6739,13 @@
       "sha512": "sha512-UeothAnvWK9f2LqPO1Nj5YRkuoOHBqjUnBtLm6yogiE9DNhDMqO/ipsI3qGe7dbeORAcbbCxRrnaqdlTZaT59A==",
       "path": "vroomjs/1.2.3",
       "hashPath": "vroomjs.1.2.3.nupkg.sha512"
+    },
+    "Webpack/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HPvYUK4I7WZEfIL18oSnFNJkTfpOTFwD6hVrBFgxVqYr/ZczSiU+TuqvkmgTR/J/2emcD/u15oKAsRD9ohGtdA==",
+      "path": "webpack/4.0.0",
+      "hashPath": "webpack.4.0.0.nupkg.sha512"
     },
     "WindowsAzure.Storage/8.1.4": {
       "type": "package",
