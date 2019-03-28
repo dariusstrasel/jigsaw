@@ -1,3 +1,2 @@
-.vs/
-_ReSharper.Caches/
-jigsaw/node_modules/
+.idea
+.vs
