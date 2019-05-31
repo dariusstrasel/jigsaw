@@ -19,8 +19,6 @@ namespace Api.Controllers
             {
                 new Seat()
                 {
-                    Id = "1",
-                    Reservable = true
                 }
             };
             return seats;
@@ -29,7 +27,7 @@ namespace Api.Controllers
         [HttpGet("{id}")]
         public ActionResult<Seat> Get(string id)
         {
-            return new Seat() { Id = id };
+            return new Seat() {  };
         }
     }
 }
