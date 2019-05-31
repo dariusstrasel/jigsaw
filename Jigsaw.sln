@@ -1,8 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{6C281930-CF44-4388-809D-5F1D0F374589}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{6C281930-CF44-4388-809D-5F1D0F374589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{23B94458-3A2B-417B-9515-1117D7FD28C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{23B94458-3A2B-417B-9515-1117D7FD28C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +21,11 @@ Global
 		{23B94458-3A2B-417B-9515-1117D7FD28C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23B94458-3A2B-417B-9515-1117D7FD28C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23B94458-3A2B-417B-9515-1117D7FD28C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03F7C01C-A8A5-401B-B19A-AE2FE5878478}
 	EndGlobalSection
 EndGlobal
