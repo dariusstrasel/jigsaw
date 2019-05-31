@@ -3,11 +3,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api.Repositories
 {
-    public class SeatRepository : DbContext
+    public class SeatContext : DbContext
     {
-        public SeatRepository(DbContextOptions<SeatRepository> options) : base(options)
+        public SeatContext(DbContextOptions<SeatContext> options) : base(options)
         {}
-        
-        public DbSet<Seat> Seats { get; set; }
+
+        public DbSet<Seat> Seats { get; set; } 
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Seat>()
+                .HasKey(s => s.SeatId)
+                .HasName($"PrimaryKey_SeatId");
+        }
     }
 }
