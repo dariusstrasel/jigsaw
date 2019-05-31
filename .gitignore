@@ -1,4 +1,7 @@
 .idea
 .vs
-**/obj
-**/bin
+**/obj/*
+**/bin/*
+*/**/obj/*
+*/**/bin/*
+Jigsaw.v3.ncrunchsolution.user
